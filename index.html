@@ -3,48 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mbappé Dictator - The Comic</title>
+    <title>EL PRESIDENTE — Mbappé Dictator Comic</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700;900&family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>⚽ Mbappé Dictator ⚽</h1>
-        <p class="subtitle">The internet's favorite meme, now in comic form</p>
+
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-stripe top-stripe"></div>
+        <div class="hero-stripe bottom-stripe"></div>
+
+        <div class="hero-badge">
+            <span class="badge-star">&#9733;</span>
+            <span class="badge-text">OFFICIAL PROPAGANDA</span>
+            <span class="badge-star">&#9733;</span>
+        </div>
+
+        <div class="hero-content">
+            <div class="portrait-frame" id="portrait">
+                <div class="portrait-css">
+                    <div class="p-head">
+                        <div class="p-hair"></div>
+                        <div class="p-face">
+                            <div class="p-eyebrow p-eyebrow-l"></div>
+                            <div class="p-eyebrow p-eyebrow-r"></div>
+                            <div class="p-eye p-eye-l"></div>
+                            <div class="p-eye p-eye-r"></div>
+                            <div class="p-nose"></div>
+                            <div class="p-mouth"></div>
+                            <div class="p-jaw"></div>
+                        </div>
+                        <div class="p-neck"></div>
+                        <div class="p-shoulders"></div>
+                    </div>
+                </div>
+                <div class="portrait-ring"></div>
+            </div>
+
+            <h1 class="hero-title fade-in">EL PRESIDENTE</h1>
+            <p class="hero-subtitle fade-in delay-1">KYLIAN MBAPPÉ — THE PEOPLE'S CHAMPION</p>
+            <p class="hero-tagline fade-in delay-2">"I am the dictator of this pitch."</p>
+        </div>
+
+        <div class="scroll-indicator" id="scrollIndicator">
+            <span>&#x2193;</span>
+            <span class="scroll-text">SCROLL TO READ THE LORE</span>
+            <span>&#x2193;</span>
+        </div>
     </header>
-    
-    <main>
-        <section class="comic-intro">
-            <div class="panel">
-                <img src="https://media.makeameme.org/created/mbappe-dictator.jpg" alt="Mbappé Dictator" class="comic-img">
-                <p class="caption">"I am the dictator of this pitch!"</p>
+
+    <section class="comics-section" id="comics">
+        <div class="section-header">
+            <div class="header-line"></div>
+            <h2 class="section-title">&#9733; THE MEMES &#9733;</h2>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="comic-grid">
+
+            <div class="comic-panel fade-scroll">
+                <div class="panel-badge">LEGENDARY</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #8B0000 0%, #1a1a1a 100%);">
+                    <span class="panel-placeholder">&#9733;</span>
+                    <img src="https://picsum.photos/seed/mbappe1/400/300" alt="Mbappé dictator meme" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>THE CORONATION</h3>
+                    <p>Mbappé crowned himself "El Presidente" after scoring a hat-trick in the World Cup final.</p>
+                </div>
             </div>
-            <div class="description">
-                <h2>The Legend</h2>
-                <p>The Kylian Mbappé dictator meme originated from his dominant performances on the football pitch, where he commands the game like a true leader. This comic celebrates that energy!</p>
+
+            <div class="comic-panel fade-scroll delay-1">
+                <div class="panel-badge">IRON FIST</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #1a1a1a 0%, #8B0000 100%);">
+                    <img src="https://picsum.photos/seed/mbappe2/400/300" alt="Mbappé stern look" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>THE STARE</h3>
+                    <p>That cold, dead-eyed stare before demolishing a defense. Enemies tremble.</p>
+                </div>
             </div>
-        </section>
-        
-        <section class="features">
-            <div class="feature-card">
-                <h3>⚡ Speed Demon</h3>
-                <p>Lightning fast runs that leave defenders in the dust</p>
+
+            <div class="comic-panel fade-scroll delay-2">
+                <div class="panel-badge">THE THRONE</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #DAA520 0%, #8B0000 100%);">
+                    <img src="https://picsum.photos/seed/mbappe3/400/300" alt="Mbappé celebration" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>WORLD DOMINATION</h3>
+                    <p>From Bondy to the world — one man, one vision, one golden boot after another.</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <h3>🎯 Precision Finish</h3>
-                <p>Clinical finishing from any angle</p>
+
+            <div class="comic-panel fade-scroll">
+                <div class="panel-badge">THE KEBAB</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #2a0a0a 0%, #8B0000 100%);">
+                    <img src="https://picsum.photos/seed/mbappe4/400/300" alt="Mbappé kebab meme" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>KEBAB OF DISCORD</h3>
+                    <p>The infamous post-match kebab that split the internet. Dictators eat what they want.</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <h3>👑 Born Leader</h3>
-                <p>Commanding presence on and off the pitch</p>
+
+            <div class="comic-panel fade-scroll delay-1">
+                <div class="panel-badge">EL BEBÉ</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);">
+                    <img src="https://picsum.photos/seed/mbappe5/400/300" alt="Mbappé baby meme" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>EL BEBÉ</h3>
+                    <p>"El Bebé" — the infantilizing nickname that backfired. Now it's a badge of honor.</p>
+                </div>
             </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Made with 💙 for football fans everywhere</p>
-        <p class="meme-credit">Inspired by the Mbappé Dictator meme</p>
+
+            <div class="comic-panel fade-scroll delay-2">
+                <div class="panel-badge">CLUB CONTROL</div>
+                <div class="panel-img" style="background: linear-gradient(135deg, #1a1a1a 0%, #DAA520 100%);">
+                    <img src="https://picsum.photos/seed/mbappe6/400/300" alt="Mbappé PSG control" loading="lazy" onerror="this.style.display='none'">
+                </div>
+                <div class="panel-info">
+                    <h3>CLUB CONTROL</h3>
+                    <p>Rumor has it he runs the dressing room, the boardroom, and the snack bar. All hail.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="lore-section" id="lore">
+        <div class="section-header">
+            <div class="header-line"></div>
+            <h2 class="section-title">&#9733; THE LORE &#9733;</h2>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="lore-timeline">
+
+            <div class="lore-card fade-scroll">
+                <div class="lore-number">01</div>
+                <div class="lore-content">
+                    <h3>EL BEBÉ — The Origin</h3>
+                    <p>It started as a dismissive taunt from rival fans. "El Bebé" — calling the young phenom a baby. But Mbappé embraced it, turning the insult into a symbol of his unshakable confidence. Like any good dictator, he took the mockery and weaponized it. The nickname now adorns banners across stadiums worldwide.</p>
+                </div>
+            </div>
+
+            <div class="lore-card fade-scroll delay-1">
+                <div class="lore-number">02</div>
+                <div class="lore-content">
+                    <h3>THE KEBAB OF DISCORD</h3>
+                    <p>After a match, Mbappé was spotted enjoying a kebab. A simple meal. But the internet exploded. "Dictators don't eat kebabs!" screamed the memes. The photo went viral, spawning thousands of edits — Mbappé on a throne eating a kebab, Mbappé signing decrees with a kebab, Mbappé declaring kebab the official state food. The people rejoiced.</p>
+                </div>
+            </div>
+
+            <div class="lore-card fade-scroll delay-2">
+                <div class="lore-number">03</div>
+                <div class="lore-content">
+                    <h3>CLUB TAKEOVER</h3>
+                    <p>Whispers became shouts: Mbappé didn't just play for PSG — he <em>ran</em> PSG. Transfer decisions, tactical choices, who gets the armband. The "dictator" label stuck. When he signed that monstrous contract, complete with image rights and a say in sporting direction, the memes wrote themselves. "El Presidente" had assumed control.</p>
+                </div>
+            </div>
+
+            <div class="lore-card fade-scroll">
+                <div class="lore-number">04</div>
+                <div class="lore-content">
+                    <h3>TRAINING GROUND TAKEOVER</h3>
+                    <p>Stories emerged of Mbappé running training sessions himself, demanding specific drills, and once allegedly rearranging the cones in a formation only he approved of. Teammates either love him or fear him. Probably both. The training ground became his first conquered territory.</p>
+                </div>
+            </div>
+
+            <div class="lore-card fade-scroll delay-1">
+                <div class="lore-number">05</div>
+                <div class="lore-content">
+                    <h3>PRESS CONFERENCE DEMANDS</h3>
+                    <p>Reporters learned quickly: you don't ask Mbappé certain questions. The press room has new rules. No questions about his future. No questions about the manager. No questions about "that" kebab. The dictator sets the agenda. A golden podium now sits permanently at his designated spot.</p>
+                </div>
+            </div>
+
+            <div class="lore-card fade-scroll delay-2">
+                <div class="lore-number">06</div>
+                <div class="lore-content">
+                    <h3>THE HANDSHAKE INCIDENT</h3>
+                    <p>The moment that cemented the meme. A teammate offered a handshake. Mbappé stared. Paused. Walked past. The footage looped for days. "That's how dictators greet people," the internet decided. The cold shoulder heard 'round the world. Now fans recreate the snub in every stadium.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="poster-section fade-scroll" id="poster">
+        <div class="poster">
+            <div class="poster-stars">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <div class="poster-emblem">&#9733;</div>
+            <h2 class="poster-title">VIVA EL PRESIDENTE</h2>
+            <p class="poster-sub">LONG MAY HE REIGN</p>
+            <p class="poster-quote">"The pitch is my state. The goal is my law."</p>
+            <div class="poster-stars bottom">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-badge">
+            <span>&#9733;</span> MINISTRY OF MEMES <span>&#9733;</span>
+        </div>
+        <p class="footer-text">This site is purely satirical. Long live football. Long live Mbappé.</p>
+        <p class="footer-credit">Propaganda Design by the People's Committee of Internet Culture</p>
+        <div class="footer-bar"></div>
     </footer>
-    
+
     <script src="scripts.js"></script>
 </body>
 </html>
